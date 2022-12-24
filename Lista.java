@@ -6,11 +6,7 @@ public class Lista {
 
         String dia[] = {"01/01/2021", "02/01/2021", "03/01/2021"};
         String alunos[] = {"fulano", "clicano", "deltano"};
-
-        String chamada[] = new String[dia.length][alunos.length];
-
-        sx.close();
-
+      
         for(int i = 0; i < dia.length; i++){
             System.out.println("Chamada do dia " + dia[i]);
             System.out.println("Aluno " + alunos[i] + " está presente?(sim/não)");
